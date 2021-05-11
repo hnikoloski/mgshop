@@ -55,6 +55,11 @@
         }
       }
     }
+    .filter-wrapper {
+      h3 {
+        display: none;
+      }
+    }
   }
   .products-listing {
     min-height: 80vh;
@@ -171,6 +176,7 @@
         padding: 15px 0;
         margin: 0 auto;
         h3 {
+          display: block;
           i {
             margin-right: 15px;
             &:last-of-type {
