@@ -168,6 +168,9 @@
   }
 
   #products-archive {
+    .products-listing #api-loader {
+      left: 45%;
+    }
     .archive-filter {
       margin-bottom: 15px;
       .filter-wrapper {

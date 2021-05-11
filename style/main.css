@@ -819,6 +819,9 @@ navbar-mobile-container {
     width: 50%;
   }
 
+  #products-archive .products-listing #api-loader {
+    left: 45%;
+  }
   #products-archive .archive-filter {
     margin-bottom: 15px;
   }
