@@ -1,0 +1,11 @@
+.thank-you-wrapper {
+  font-family: "Space Grotesk", sans-serif;
+  border: 1px solid #e1e5eb;
+  box-shadow: 0px 20px 50px rgb(0 0 0 / 9%);
+  padding-bottom: 55px;
+}
+.woocommerce-order-received {
+  header.entry-header {
+    display: none;
+  }
+}

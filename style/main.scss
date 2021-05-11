@@ -1,0 +1,18 @@
+@import "./helpers/resets.scss";
+@import "./helpers/typography.scss";
+@import "./helpers/variables.scss";
+@import "./helpers/helpers.scss";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./components/hero";
+@import "./components/products-archive";
+@import "./woocommerce/cart";
+@import "./woocommerce/single-products";
+@import "./woocommerce/related-products-widget";
+@import "./woocommerce/thank-you-page";
+@import "./pages/404";
+
+* {
+  font-family: $grotesk;
+  transition: 0.3s;
+}
