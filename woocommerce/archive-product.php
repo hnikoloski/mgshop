@@ -83,7 +83,7 @@ if (woocommerce_product_loop()) {
         <div class="row archive-filter">
             <div class="col-12">
                 <div class="filter-wrapper">
-                    <h3 class="text-center mob"><i class="fas fa-sliders-h"></i><i class="fas fa-chevron-down"></i> </h3>
+                    <h3 class="text-center mob">Filter: <i class="fas fa-chevron-down"></i> </h3>
 
                     <ul>
                         <li class="js-filter-item" data-category="All"><a href="<?php home_url(); ?>" class="active">ALL PRODUCTS</a></li>

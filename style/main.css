@@ -844,7 +844,7 @@ navbar-mobile-container {
   #products-archive .archive-filter .filter-wrapper ul li {
     margin-right: 0;
   }
-  #products-archive .archive-filter .filter-wrapper.opened h3 {
+  #products-archive .archive-filter .filter-wrapper.opened h3 i {
     -webkit-animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
     animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
   }
