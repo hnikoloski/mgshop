@@ -825,13 +825,14 @@ navbar-mobile-container {
   #products-archive .archive-filter .filter-wrapper {
     box-shadow: 0 12px 36px rgba(0, 0, 0, 0.16);
     max-width: 675px;
-    padding: 15px 0;
+    padding: 5px 0;
     margin: 0 auto;
   }
   #products-archive .archive-filter .filter-wrapper h3 {
     display: block;
   }
   #products-archive .archive-filter .filter-wrapper h3 i {
+    color: #b58d41;
     margin-right: 15px;
   }
   #products-archive .archive-filter .filter-wrapper h3 i:last-of-type {

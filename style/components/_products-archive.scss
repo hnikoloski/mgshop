@@ -173,11 +173,12 @@
       .filter-wrapper {
         box-shadow: 0 12px 36px rgb(0 0 0 / 16%);
         max-width: 675px;
-        padding: 15px 0;
+        padding: 5px 0;
         margin: 0 auto;
         h3 {
           display: block;
           i {
+            color: #b58d41;
             margin-right: 15px;
             &:last-of-type {
               margin-right: 0;
