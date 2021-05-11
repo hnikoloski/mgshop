@@ -706,6 +706,9 @@ navbar-mobile-container {
 #products-archive .archive-filter ul li a:disabled {
   cursor: crosshair;
 }
+#products-archive .archive-filter .filter-wrapper h3 {
+  display: none;
+}
 #products-archive .products-listing {
   min-height: 80vh;
   position: relative;
@@ -824,6 +827,9 @@ navbar-mobile-container {
     max-width: 675px;
     padding: 15px 0;
     margin: 0 auto;
+  }
+  #products-archive .archive-filter .filter-wrapper h3 {
+    display: block;
   }
   #products-archive .archive-filter .filter-wrapper h3 i {
     margin-right: 15px;
