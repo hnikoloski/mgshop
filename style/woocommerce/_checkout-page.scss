@@ -1,5 +1,9 @@
 .checkout-wrapper{
   margin-top: 200px;
+  font-family: "Space Grotesk", sans-serif;
+  border: 1px solid #e1e5eb;
+  box-shadow: 0px 20px 50px rgb(0 0 0 / 9%);
+  padding: 15px;
   label{
     display: block;
     color: #404040;
@@ -12,6 +16,38 @@
     border: 1px solid #b58d41;
     @include borderRadius(0);
     margin-bottom: 15px;
+  }
+  form.checkout_coupon.woocommerce-form-coupon{
+    font-family: "Space Grotesk", sans-serif;
+    border: 1px solid #e1e5eb;
+    box-shadow: 0px 20px 50px rgb(0 0 0 / 9%);
+    padding: 15px;
+    margin-bottom: 30px;
+    p{
+      font-weight: 700;
+      input{
+        margin-top: 15px;
+      }
+    }
+    button{
+      &[type="submit"]{
+        @include borderRadius(2px);
+        width: auto;
+        height: 40px;
+        background: #b58d41;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1rem;
+        text-transform: uppercase;
+        display: block;
+        text-align: center;
+        border:1px solid #b58d41;
+        &:hover{
+          background: #fff;
+          color: #b58d41;
+        }
+      }
+    }
   }
   .woocommerce-form-coupon-toggle{
     margin-bottom: 30px;

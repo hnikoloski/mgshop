@@ -1593,6 +1593,10 @@ navbar-mobile-container {
 }
 .checkout-wrapper {
   margin-top: 200px;
+  font-family: "Space Grotesk", sans-serif;
+  border: 1px solid #e1e5eb;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.09);
+  padding: 15px;
 }
 .checkout-wrapper label {
   display: block;
@@ -1607,6 +1611,38 @@ navbar-mobile-container {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   margin-bottom: 15px;
+}
+.checkout-wrapper form.checkout_coupon.woocommerce-form-coupon {
+  font-family: "Space Grotesk", sans-serif;
+  border: 1px solid #e1e5eb;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.09);
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.checkout-wrapper form.checkout_coupon.woocommerce-form-coupon p {
+  font-weight: 700;
+}
+.checkout-wrapper form.checkout_coupon.woocommerce-form-coupon p input {
+  margin-top: 15px;
+}
+.checkout-wrapper form.checkout_coupon.woocommerce-form-coupon button[type=submit] {
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  width: auto;
+  height: 40px;
+  background: #b58d41;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  border: 1px solid #b58d41;
+}
+.checkout-wrapper form.checkout_coupon.woocommerce-form-coupon button[type=submit]:hover {
+  background: #fff;
+  color: #b58d41;
 }
 .checkout-wrapper .woocommerce-form-coupon-toggle {
   margin-bottom: 30px;
