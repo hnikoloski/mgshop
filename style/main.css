@@ -132,6 +132,71 @@ a:focus {
   }
 }
 /* ====== / MIXINS ====== */
+#loading-overlay {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99997;
+  display: table;
+}
+#loading-overlay #loader {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+#loading-overlay .loader2 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 0 auto;
+}
+#loading-overlay .loader2-double-bounce1, #loading-overlay .loader2-double-bounce2, #loading-overlay .loader3 > div, #loading-overlay .loader4-cube1, #loading-overlay .loader4-cube2, #loading-overlay .loader5, #loading-overlay .loader6-dot1, #loading-overlay .loader6-dot2, #loading-overlay .loader7 > div, #loading-overlay .loader8-container1 > div, #loading-overlay .loader8-container2 > div, #loading-overlay .loader8-container3 > div {
+  background-color: #ffffff;
+}
+#loading-overlay .loader2-double-bounce1, #loading-overlay .loader2-double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: loader-bounce 2s infinite ease-in-out;
+  animation: loader-bounce 2s infinite ease-in-out;
+}
+#loading-overlay .loader2-double-bounce2 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+@-webkit-keyframes loader-bounce {
+  0%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes loader-bounce {
+  0%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
 #masthead {
   transition: 0.6s;
   padding: 10px 150px;

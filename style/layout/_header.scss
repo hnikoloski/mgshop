@@ -1,3 +1,70 @@
+#loading-overlay{
+  background:#000;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99997;
+  display: table;
+  #loader{
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .loader2{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .loader2-double-bounce1, .loader2-double-bounce2, .loader3 > div, .loader4-cube1, .loader4-cube2, .loader5, .loader6-dot1, .loader6-dot2, .loader7 > div, .loader8-container1 > div, .loader8-container2 > div, .loader8-container3 > div{
+    background-color: #ffffff;
+  }
+  .loader2-double-bounce1, .loader2-double-bounce2{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #333;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: loader-bounce 2s infinite ease-in-out;
+    animation: loader-bounce 2s infinite ease-in-out;
+  }
+  .loader2-double-bounce2{
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+  }
+}
+@-webkit-keyframes loader-bounce {
+  0%,100% {
+      transform: scale(0);
+      -webkit-transform: scale(0)
+  }
+
+  50% {
+      transform: scale(1);
+      -webkit-transform: scale(1)
+  }
+}
+
+@keyframes loader-bounce {
+  0%,100% {
+      transform: scale(0);
+      -webkit-transform: scale(0)
+  }
+
+  50% {
+      transform: scale(1);
+      -webkit-transform: scale(1)
+  }
+}
 #masthead {
   transition: 0.6s;
   padding: 10px 150px;

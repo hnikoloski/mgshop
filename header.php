@@ -28,6 +28,14 @@ $logoUrl = wp_get_attachment_image_src($custom_logo_id, 'full');
 
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
+	<div id="loading-overlay">
+		<div id="loader">
+			<div class="loader2">
+				<div class="loader2-double-bounce1"></div>
+				<div class="loader2-double-bounce2"></div>
+			</div>
+		</div>
+	</div>
 	<div id="page" class="site">
 		<div id="ceiling" class="fixed-top">
 			<div id="navbar-container" class="clearfix w-100">

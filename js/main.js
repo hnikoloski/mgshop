@@ -92,4 +92,6 @@ $(document).ready(function () {
     src: "src",
     itemSelector: ".single-slide img",
   });
+  $('#loading-overlay').fadeOut('slow');
+
 });
