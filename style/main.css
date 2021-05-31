@@ -985,6 +985,27 @@ navbar-mobile-container {
     transform: rotateX(-180deg);
   }
 }
+.empty-page-wrapper {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.empty-page-wrapper .woocommerce-info {
+  padding: 5px 10px;
+  color: #fff;
+}
+.empty-page-wrapper .return-to-shop {
+  margin-top: 25px;
+}
+.empty-page-wrapper .return-to-shop a {
+  color: #b58d41;
+  text-decoration: underline;
+}
+
 .do-cart-wrapper {
   margin-top: 200px;
   margin-bottom: 130px;
@@ -1236,6 +1257,28 @@ navbar-mobile-container {
   line-height: 50px;
   margin-left: auto;
   margin-top: 30px;
+}
+.cart-collaterals .woocommerce-shipping-calculator .shipping-calculator-form input, .cart-collaterals .woocommerce-shipping-calculator .shipping-calculator-form .select2-container--default .select2-selection--single {
+  width: 100%;
+  border: 1px solid #b58d41;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  margin-bottom: 15px;
+}
+.cart-collaterals .woocommerce-shipping-calculator .shipping-calculator-form button[type=submit] {
+  background: #b58d41;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-color: #b58d41;
+  text-transform: uppercase;
+}
+.cart-collaterals .woocommerce-shipping-calculator .shipping-calculator-form button[type=submit]:hover {
+  background: #fff;
+  color: #b58d41;
 }
 
 .single-product div.product * {
@@ -1548,6 +1591,73 @@ navbar-mobile-container {
     margin-top: 100px;
   }
 }
+.checkout-wrapper {
+  margin-top: 200px;
+}
+.checkout-wrapper label {
+  display: block;
+  color: #404040;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.checkout-wrapper input, .checkout-wrapper .select2-container--default .select2-selection--single {
+  width: 100%;
+  border: 1px solid #b58d41;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  margin-bottom: 15px;
+}
+.checkout-wrapper .woocommerce-form-coupon-toggle {
+  margin-bottom: 30px;
+}
+.checkout-wrapper .woocommerce-form-coupon-toggle .woocommerce-info {
+  background: #b58d41;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #fff;
+}
+.checkout-wrapper .woocommerce-form-coupon-toggle .woocommerce-info a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.checkout-wrapper .woocommerce-additional-fields textarea {
+  border: 1px solid #b58d41;
+}
+.checkout-wrapper .ship-to-diff-address-toggler {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  display: block;
+}
+.checkout-wrapper #order_review #payment button[type=submit] {
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  width: 240px;
+  height: 50px;
+  background: #b58d41;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-top: 30px;
+  border: 1px solid #b58d41;
+}
+.checkout-wrapper #order_review #payment button[type=submit]:hover {
+  background: #fff;
+  color: #b58d41;
+}
+
+body.woocommerce-checkout header.entry-header {
+  display: none;
+}
+
 .thank-you-wrapper {
   font-family: "Space Grotesk", sans-serif;
   border: 1px solid #e1e5eb;

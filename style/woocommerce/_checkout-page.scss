@@ -1,0 +1,72 @@
+.checkout-wrapper{
+  margin-top: 200px;
+  label{
+    display: block;
+    color: #404040;
+    font-size: 1rem;
+    font-weight: 700;
+    
+  }
+  input,.select2-container--default .select2-selection--single{
+    width: 100%;
+    border: 1px solid #b58d41;
+    @include borderRadius(0);
+    margin-bottom: 15px;
+  }
+  .woocommerce-form-coupon-toggle{
+    margin-bottom: 30px;
+    .woocommerce-info{
+      background: #b58d41;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+      color: #fff;
+      a{
+        color: #fff;
+        font-weight: 700;
+        text-decoration: underline;
+      }
+    }
+  }
+  .woocommerce-additional-fields{
+    textarea{
+      border:1px solid #b58d41;
+    }
+  }
+  .ship-to-diff-address-toggler{
+    text-decoration:underline;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  #order_review{
+    #payment{
+      button{
+        &[type="submit"]{
+          @include borderRadius(2px);
+          width: 240px;
+          height: 50px;
+          background: #b58d41;
+          color: #fff;
+          font-weight: 700;
+          font-size: 1rem;
+          text-transform: uppercase;
+          display: block;
+          text-align: center;
+          margin-left: auto;
+          margin-top: 30px;
+          border:1px solid #b58d41;
+          &:hover{
+            background: #fff;
+            color: #b58d41;
+          }
+        }
+      }
+    }
+  }
+}
+body.woocommerce-checkout{
+  header.entry-header{
+    display: none;
+  }
+}
