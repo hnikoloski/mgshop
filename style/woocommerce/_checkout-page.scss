@@ -100,6 +100,18 @@
       }
     }
   }
+  .woocommerce-terms-and-conditions-wrapper{
+    p{
+      a{
+        color:#b58d41;
+      }
+    }
+  }
+  .woocommerce-checkout-review-order-table{
+    tr{
+      height: 30px;
+    }
+  }
 }
 body.woocommerce-checkout{
   header.entry-header{
