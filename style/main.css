@@ -1711,6 +1711,35 @@ body.woocommerce-checkout header.entry-header {
   display: none;
 }
 
+#customer_login .boxed-wrap {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.09);
+  border: 1px solid #E1E5EB;
+  border-radius: 3px;
+  opacity: 1;
+  padding: 50px 45px;
+  height: 100%;
+}
+#customer_login .boxed-wrap h2 {
+  color: #262626;
+  font-size: 35px;
+  margin-bottom: 44px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#customer_login .boxed-wrap label {
+  display: block;
+  color: #262626;
+  margin-bottom: 15px;
+}
+#customer_login .boxed-wrap input:not([type=checkbox]) {
+  width: 100%;
+  border: 1px solid #E1E5EB;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
 .not-found-wrapper {
   text-align: center;
 }
